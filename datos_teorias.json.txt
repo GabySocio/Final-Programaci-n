@@ -1,4 +1,0 @@
-{"seccion1_sociologias":"Teoria Sociológica II. Teoría Sociológica II es la tercera materia obligatoria del tronco teórico de la Licenciatura en Sociología de la Universidad de Flores. Ella busca profundizar la línea de acercamiento al conocimiento sociológico iniciada en Sociología General y continuada por Teoría Sociológica I. En ese sentido, si esta última se centró en las contribuciones teóricas que forjaron la disciplina signando sus orígenes, Teoría Sociológica II se propone ir más allá del pensamiento clásico, no sin reconocer e identificar sus contribuciones a las perspectivas más importantes del siglo XX -aunque sea de modo crítico- y las primeras líneas de pensamiento que marcan el devenir de la Sociología en lo que va del siglo XXI.",
-Teoría Sociológica I. 
-
-}

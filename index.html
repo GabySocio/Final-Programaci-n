@@ -69,7 +69,7 @@
 							<article class="col-6 col-12-xsmall work-item">
 								
 								<h3>Teoría sociológica II(contemporánea)</h3>
-								<p>Teoría Sociológica II es la tercera materia obligatoria del tronco teórico de la Licenciatura en Sociología de la Universidad de Flores. Ella busca profundizar la línea de acercamiento al conocimiento sociológico iniciada en Sociología General y continuada por Teoría Sociológica I. En ese sentido, si esta última se centró en las contribuciones teóricas que forjaron la disciplina signando sus orígenes, Teoría Sociológica II se propone ir más allá del pensamiento clásico, no sin reconocer e identificar sus contribuciones a las perspectivas más importantes del siglo XX -aunque sea de modo crítico- y las primeras líneas de pensamiento que marcan el devenir de la Sociología en lo que va del siglo XXI.</p>
+								<p id="seccion1_sociologias"></p>
 								<ul class="actions">
 									<li><a href="#" class="button">Más contenido</a></li>
 								</ul>
@@ -474,6 +474,25 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>fetch("datos_teorias.json")
+			.then(response => response.json())
+			.then(data => {
+               
+			   document.getElementById("seccion1_sociologias").textContent = data.seccion1_sociologias;
+			   document.getElementById("Teoria_Sociológica_I").textContent = data.Teoria_Sociológica_I;
+			  
+		   })
+		   .catch(error => console.error('Error cargando JSON:', error));
+
+
+
+
+
+
+
+
+
+			</script>
 
 	</body>
 </html>
