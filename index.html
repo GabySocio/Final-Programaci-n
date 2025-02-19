@@ -52,7 +52,7 @@
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<h3>Sociología General</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<p id="Sociologia_General"></p>
 								<ul class="actions">
 									<li><a href="#" class="button">Más contenido</a></li>
 								</ul>
@@ -152,6 +152,7 @@
 			   document.getElementById("seccion1_sociologias").textContent = data.seccion1_sociologias;
 			   document.getElementById("Teoria_Sociológica_I").textContent = data.Teoria_Sociológica_I;
 			   document.getElementById("Teoria_Sociologica_III").textContent = data.Teoria_Sociologica_III;
+			   document.getElementById("Sociologia_General").textContent = data.Sociologia_General;
 			  
 		   })
 		   .catch(error => console.error('Error cargando JSON:', error));
