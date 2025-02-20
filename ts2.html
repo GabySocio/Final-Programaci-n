@@ -45,14 +45,14 @@
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<h3>Talcott Parsons</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<p id="Talcott_Parsons"></p>
 								<ul class="actions">
 									<li><a href="#" class="button">Esquemas</a></li>
 								</ul>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<h3>Anthony Giddens</h3>
-								<p id="Teoria_Sociológica_I"></p>
+								<p id=></p>
 								<ul class="actions">
 									
 								</ul>
@@ -60,7 +60,7 @@
 							<article class="col-6 col-12-xsmall work-item">
 								
 								<h3>Pierre Bourdieu</h3>
-								<p id="seccion1_sociologias"></p>
+								<p id=></p>
 								<ul class="actions">
 									<li><a href="#" class="button">Más contenido</a></li>
 								</ul>
@@ -124,18 +124,18 @@
 				</div>
 			</footer>
 
-		<!-- Scripts -->
+		<!-- Scripts ESTO LO BORRO?-->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>fetch("datos_teorias.json")
+			<script>fetch("datos_sociologos.json")
 			.then(response => response.json())
 			.then(data => {
                
-			   document.getElementById("seccion1_sociologias").textContent = data.seccion1_sociologias;
+			   document.getElementById("Talcott_Parsons").textContent = data.Talcott_Parsons;
 			   document.getElementById("Teoria_Sociológica_I").textContent = data.Teoria_Sociológica_I;
 			   document.getElementById("Teoria_Sociologica_III").textContent = data.Teoria_Sociologica_III;
 			  
