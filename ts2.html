@@ -44,15 +44,15 @@
 						<h2>Pensadores sintéticos: abordaje.</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<h3>Talcott Parsons</h3>
+								<h3>Talcott Parsons (13 dic. 1902 - 8 may. 1979)</h3>
 								<p id="Talcott_Parsons"></p>
 								<ul class="actions">
 									<li><a href="#" class="button">Esquemas</a></li>
 								</ul>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<h3>Anthony Giddens</h3>
-								<p id=></p>
+								<h3>Anthony Giddens (18 de enero 1938)</h3>
+								<p id="Anthony_Giddens"></p>
 								<ul class="actions">
 									
 								</ul>
@@ -60,7 +60,7 @@
 							<article class="col-6 col-12-xsmall work-item">
 								
 								<h3>Pierre Bourdieu</h3>
-								<p id=></p>
+								<p id="Pierre_Bourdieu"></p>
 								<ul class="actions">
 									<li><a href="#" class="button">Más contenido</a></li>
 								</ul>
@@ -76,7 +76,7 @@
 						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form method="post" action="#">
+							<form action="https://formsubmit.co/gdallaglio@remax.com.ar" method="POST" />
 									<div class="row gtr-uniform gtr-50">
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -136,8 +136,8 @@
 			.then(data => {
                
 			   document.getElementById("Talcott_Parsons").textContent = data.Talcott_Parsons;
-			   document.getElementById("Teoria_Sociológica_I").textContent = data.Teoria_Sociológica_I;
-			   document.getElementById("Teoria_Sociologica_III").textContent = data.Teoria_Sociologica_III;
+			   document.getElementById("Anthony_Giddens").textContent = data.Anthony_Giddens;
+			   document.getElementById("Pierre_Bourdieu").textContent = data.Pierre_Bourdieu;
 			  
 		   })
 		   .catch(error => console.error('Error cargando JSON:', error));
