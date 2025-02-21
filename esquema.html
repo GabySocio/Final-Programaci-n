@@ -28,15 +28,14 @@
 									<div class="meta">
 										
 										<a href="#" class="author"><img src="images/thumbs/Voluntarista (EAS 1937).jpg"alt="Voluntarista" /></a>
-										<p id="Esquema_Voluntarista"></p>
+										
 									</div>
 								</header>
+								<p id="Esquema_Voluntarista"></p>
 							
-							
-								
 							</article>
 
-			
+
 							<article class="post">
 								<header>
 									<div class="title">
@@ -49,7 +48,7 @@
 									</div>
 								</header>
 							
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.</p>
+								<p id="Esquema_Trisistemico"></p>
 							</article>
 
 					
@@ -65,7 +64,7 @@
 									</div>
 								</header>
 							
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra, ac fringilla turpis suscipit. Quisque vestibulum rhoncus ligula.</p>
+								<p id="Esquema_Accion"></p>
 								<footer>
 									<ul class="actions">
 										<li><a href="index.html" class="button">Página principal</a></li>
@@ -103,8 +102,8 @@
 				.then(data => {
 				   
 				   document.getElementById("Esquema_Voluntarista").textContent = data.Esquema_Voluntarista;
-				   document.getElementById("Anthony_Giddens").textContent = data.Anthony_Giddens;
-				   document.getElementById("Pierre_Bourdieu").textContent = data.Pierre_Bourdieu;
+				   document.getElementById("Esquema_Trisistemico").textContent = data.Esquema_Trisistemico;
+				   document.getElementById("Esquema_Accion").textContent = data.Esquema_Accion;
 				  
 			   })
 			   .catch(error => console.error('Error cargando JSON:', error));
