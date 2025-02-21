@@ -28,10 +28,11 @@
 									<div class="meta">
 										
 										<a href="#" class="author"><img src="images/thumbs/Voluntarista (EAS 1937).jpg"alt="Voluntarista" /></a>
+										<p id="Esquema_Voluntarista"></p>
 									</div>
 								</header>
 							
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+							
 								
 							</article>
 
@@ -90,12 +91,24 @@
 
 							
 						
-		<!-- Scripts -->
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>fetch("datos_esquemas.json")
+				.then(response => response.json())
+				.then(data => {
+				   
+				   document.getElementById("Esquema_Voluntarista").textContent = data.Esquema_Voluntarista;
+				   document.getElementById("Anthony_Giddens").textContent = data.Anthony_Giddens;
+				   document.getElementById("Pierre_Bourdieu").textContent = data.Pierre_Bourdieu;
+				  
+			   })
+			   .catch(error => console.error('Error cargando JSON:', error));
+			   </script>
 
 	</body>
 </html>
